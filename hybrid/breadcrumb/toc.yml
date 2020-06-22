@@ -1,0 +1,11 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+    - name: Гибридная среда
+      tocHref: /hybrid/
+      topicHref: /hybrid/
+      items:
+        - name: Решения приложений
+          tocHref: /hybrid/app-solutions/
+          topicHref: /hybrid/app-solutions/index

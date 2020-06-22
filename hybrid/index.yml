@@ -1,0 +1,310 @@
+### YamlMime:Hub
+title: Документация по гибридным облачным решениям Azure
+summary: Ресурсы для создания и использования гибридных решений, охватывающих глобальное облако, центр обработки данных и пограничную среду.
+brand: azure
+metadata:
+  title: Документация по гибридным облачным решениям Azure
+  description: Ресурсы для создания и использования гибридных решений, охватывающих глобальное облако, центр обработки данных и пограничную среду.
+  ms.service: multiple
+  ms.topic: hub-page
+  author: BryanLa
+  ms.author: bryanla
+  ms.date: 06/08/2020
+  ms.openlocfilehash: aa1477386b5c6fe356459e5919da4edd8cf24075
+  ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 06/17/2020
+  ms.locfileid: "84909745"
+highlightedContent:
+  items:
+  - title: Azure Hybrid Virtual Event — 24 июня 2020 года
+    itemType: video
+    url: https://info.microsoft.com/ww-registration-azure-hybrid-virtual-event.html
+  - title: 'Build 2020: гибридные решения (секции)'
+    itemType: video
+    url: https://mybuild.microsoft.com/sessions?q=hybrid&g=%255B%2522on-demand%2522%255D
+  - title: 'Build 2020: Azure Arc (секции)'
+    itemType: video
+    url: https://mybuild.microsoft.com/sessions?q=%2522%2520Arc%2520%2522&g=%255B%2522on-demand%2522%255D
+  - title: 'Build 2020: интеллектуальная граница (секции)'
+    itemType: video
+    url: https://mybuild.microsoft.com/sessions?q=%2522%2520intelligent%2520edge%2520%2522%2520%2522%2520sql%2520edge%2520%2522
+productDirectory:
+  title: Гибридная облачная платформа Azure
+  summary: Гибридные платформы, используемые для создания и эксплуатации гибридных решений.
+  items:
+  - title: Глобальная общедоступная или национальная облачная платформа Azure.
+    imageSrc: media/index/logo_azure.svg
+    links:
+    - url: /azure
+      text: Службы Azure
+  - title: Платформы частных облаков для размещенных, локальных и мобильных центров обработки данных.
+    imageSrc: media/index/azure-stack-hub.svg
+    links:
+    - url: /azure-stack/operator
+      text: Azure Stack Hub
+    - url: /azure-stack/hci
+      text: Azure Stack HCI
+  - title: Платформы интеллектуальной границы для устройств.
+    imageSrc: media/index/azure-stack-hub.svg
+    links:
+    - url: /azure/iot-edge/
+      text: Azure IoT Edge
+    - url: /azure-sphere
+      text: Azure Sphere
+    - url: /windows/iot-core/
+      text: Windows для Интернета вещей
+conceptualContent:
+  title: Гибридные технологии
+  summary: Службы и продукты для создания и эксплуатации гибридных решений.
+  items:
+  - title: Средства ИИ и машинного обучения
+    links:
+    - url: /azure/bot-service
+      itemType: overview
+      text: Служба Azure Bot
+    - url: /azure/search/
+      itemType: overview
+      text: Когнитивный поиск Azure
+    - url: /azure/cognitive-services/
+      itemType: overview
+      text: Azure Cognitive Services
+    - url: /azure/machine-learning/
+      itemType: overview
+      text: Машинное обучение Azure
+  - title: Контейнеры
+    links:
+    - url: /azure/azure-arc/kubernetes/
+      itemType: overview
+      text: Kubernetes с поддержкой Azure Arc (предварительная версия)
+    - url: /azure/container-instances/
+      itemType: overview
+      text: Экземпляры контейнеров Azure
+    - url: /azure/container-registry/
+      itemType: overview
+      text: Реестр контейнеров Azure
+    - url: /azure/aks/
+      itemType: overview
+      text: Службы Azure Kubernetes в Azure
+    - url: /azure-stack/user/azure-stack-kubernetes-aks-engine-overview
+      itemType: overview
+      text: Службы Azure Kubernetes в Azure Stack Hub
+    - url: /azure/docker/
+      itemType: overview
+      text: Docker в Azure
+    - url: /azure/iot-edge/how-to-install-iot-edge-kubernetes
+      itemType: overview
+      text: IoT Edge в Kubernetes
+  - title: База данных
+    links:
+    - url: https://azure.microsoft.com/services/azure-arc/hybrid-data-services/
+      itemType: overview
+      text: Службы данных с поддержкой Azure Arc (закрытая предварительная версия)
+    - url: /azure/azure-sql-edge/overview
+      itemType: overview
+      text: SQL Azure для пограничных вычислений (предварительная версия)
+  - title: Разработка и интеграция
+    links:
+    - url: /azure-stack/operator/azure-stack-app-service-overview
+      itemType: overview
+      text: Использование Службы приложений в Azure Stack Hub
+    - url: /azure/app-service/app-service-hybrid-connections
+      itemType: overview
+      text: Гибридные подключения к службе приложений Azure
+    - url: /azure/devops
+      itemType: overview
+      text: Azure DevOps для CI/CD
+    - url: /azure/event-hubs/
+      itemType: overview
+      text: Центры событий Azure
+    - url: /azure/azure-functions/
+      itemType: overview
+      text: Функции Azure
+    - url: /azure/logic-apps/
+      itemType: overview
+      text: Azure Logic Apps
+    - url: /azure/azure-monitor/app/app-insights-overview
+      itemType: overview
+      text: Azure Monitor — Application Insights
+    - url: /azure/service-fabric/
+      itemType: overview
+      text: Azure Service Fabric
+    - url: /azure-stack/operator/event-hubs-rp-overview
+      itemType: overview
+      text: Центры событий в Azure Stack Hub
+  - title: Edge
+    links:
+    - url: /azure/databox-online/data-box-gateway-overview
+      itemType: overview
+      text: Шлюз Azure Data Box
+    - url: /azure/iot-edge/
+      itemType: overview
+      text: Azure IoT Edge
+    - url: /azure-sphere
+      itemType: overview
+      text: Azure Sphere
+    - url: /azure/databox-online/azure-stack-edge-overview
+      itemType: overview
+      text: Azure Stack Edge
+    - url: /azure/azure-sql-edge/overview
+      itemType: overview
+      text: SQL Azure для пограничных вычислений (предварительная версия)
+    - url: /azure/iot-edge/how-to-install-iot-edge-kubernetes
+      itemType: overview
+      text: IoT Edge в Kubernetes
+    - url: /windows/iot-core/
+      itemType: overview
+      text: Windows для Интернета вещей
+  - title: Идентификация и безопасность
+    links:
+    - url: /azure/active-directory/hybrid/
+      itemType: overview
+      text: Гибридное удостоверение Azure AD
+    - url: /azure/security-center/
+      itemType: overview
+      text: Центр безопасности Azure
+    - url: /azure/sentinel/
+      itemType: overview
+      text: Azure Sentinel
+    - url: /azure/active-directory/devices/concept-azure-ad-join-hybrid
+      itemType: overview
+      text: Гибридные устройства, присоединенные к Azure AD
+  - title: Управление
+    links:
+    - url: https://azure.microsoft.com/services/azure-arc/hybrid-data-services/
+      itemType: overview
+      text: Службы данных с поддержкой Azure Arc (закрытая предварительная версия)
+    - url: /azure/azure-arc/kubernetes/
+      itemType: overview
+      text: Kubernetes с поддержкой Azure Arc (предварительная версия)
+    - url: /azure/azure-arc/
+      itemType: overview
+      text: Серверы с поддержкой Azure Arc (предварительная версия)
+    - url: /azure/automation/
+      itemType: overview
+      text: Служба автоматизации Azure
+    - url: /azure/storage/files/
+      itemType: overview
+      text: Файлы Azure
+    - url: /azure-monitor
+      itemType: overview
+      text: Azure Monitor
+    - url: /azure/site-recovery/
+      itemType: overview
+      text: Azure Site Recovery
+    - url: /azure-stack/hci/overview
+      itemType: overview
+      text: Гибридные возможности Azure Stack HCI
+    - url: /windows-server/manage/windows-admin-center/azure/
+      itemType: overview
+      text: Гибридные службы Azure для Windows Admin Center
+  - title: Сеть
+    links:
+    - url: /azure/networking/edge-zones-overview
+      itemType: overview
+      text: Пограничные зоны Azure
+    - url: /azure/expressroute/
+      itemType: overview
+      text: Azure ExpressRoute
+    - url: /azure/load-balancer/
+      itemType: overview
+      text: Azure Load Balancer
+    - url: /azure/private-link/
+      itemType: overview
+      text: Приватный канал Azure
+    - url: /azure/azure-relay/
+      itemType: overview
+      text: Ретранслятор Azure
+    - url: /azure/traffic-manager/
+      itemType: overview
+      text: Azure Traffic Manager
+    - url: /azure/virtual-network/
+      itemType: overview
+      text: Виртуальная сеть Azure
+    - url: /azure/vpn-gateway/
+      itemType: overview
+      text: VPN-шлюз Azure
+  - title: Память
+    links:
+    - url: /azure/avere-vfxt/avere-vfxt-overview
+      itemType: overview
+      text: Avere vFXT для Azure
+    - url: /azure/backup/
+      itemType: overview
+      text: Azure Backup
+    - url: /azure/storage/files/storage-files-introduction
+      itemType: overview
+      text: Файлы Azure
+    - url: /azure/site-recovery/
+      itemType: overview
+      text: Azure Site Recovery
+    - url: /azure/fxt-edge-filer/fxt-overview
+      itemType: overview
+      text: Azure FXT Edge Filer
+additionalContent:
+  sections:
+  - title: Гибридные решения
+    items:
+    - title: Примеры гибридных решений и шаблонов приложений
+      links:
+      - url: /hybrid/app-solutions/overview-patterns-solution-examples
+        text: Что собой представляют шаблоны и примеры решений?
+      - url: /hybrid/app-solutions/overview-app-design-considerations
+        text: Рекомендации по проектированию гибридных приложений
+    - title: Обзор гибридных шаблонов
+      links:
+      - url: /hybrid/app-solutions/pattern-cross-cloud-scale
+        text: Масштабирование в нескольких облаках
+      - url: /hybrid/app-solutions/pattern-cicd-pipeline
+        text: Гибридные процессы CI/CD в рамках DevOps
+      - url: /hybrid/app-solutions/pattern-retail-footfall-detection
+        text: Определение посещаемости (розничная торговля)
+      - url: /hybrid/app-solutions/pattern-geo-distributed
+        text: Географически распределенное приложение
+    - title: Развертывание примеров гибридных решений
+      links:
+      - url: /hybrid/app-solutions/solution-deployment-guide-cross-cloud-scaling
+        text: Масштабирование в нескольких облаках
+      - url: https://aka.ms/hybriddevopsdeploy
+        text: Гибридные процессы CI/CD в рамках DevOps
+      - url: /hybrid/app-solutions/solution-deployment-guide-retail-footfall-detection
+        text: Определение посещаемости (розничная торговля)
+      - url: /hybrid/app-solutions/solution-deployment-guide-geo-distributed
+        text: Географически распределенное приложение
+  - title: Дополнительные ресурсы
+    items:
+    - title: Общие ресурсы
+      links:
+      - url: /azure-stack/operator/compare-azure-azure-stack
+        text: Глобальная среда Azure и Stack Azure
+      - url: https://azure.microsoft.com/blog/topics/hybrid/
+        text: Блог, посвященный гибридным решениям Azure
+      - url: https://azure.microsoft.com/overview/azure-hybrid/
+        text: Гибридные возможности Azure
+      - url: /learn
+        text: Интерактивное обучение Microsoft Learn
+      - url: /learn/tv/
+        text: Microsoft Learn TV
+    - title: Ресурсы для создания и эксплуатации
+      links:
+      - url: /dotnet/azure/
+        text: Разработка .NET для Azure
+      - url: https://github.com/likamrat/azure_arc
+        text: Руководства по началу работы с Azure Arc
+      - url: /samples/browse/
+        text: Обозреватель примеров кода
+      - url: https://www.youtube.com/watch?v=2lw8zOpJTn0
+        text: Динамическое масштабирование из Azure Stack Hub в Azure
+      - url: https://labs.iotedge.dev/
+        text: Практические задания по IoT Edge
+      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
+        text: Пакет разработки для искусственного интеллекта визуального распознавания
+      - url: /visualstudio/azure/
+        text: Разработка для Azure с помощью Visual Studio
+    - title: Поддержка и другие ресурсы
+      links:
+      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
+        text: Сертифицировано для устройств Azure IoT Edge
+      - url: /answers/products/
+        text: 'Форумы Майкрософт: вопросы и ответы'
