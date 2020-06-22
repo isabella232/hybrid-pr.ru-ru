@@ -1,0 +1,74 @@
+- name: Документация по гибридным решениям Azure
+  href: index.yml
+- name: Обзор
+  items:
+    - name: Гибридные шаблоны и примеры решений
+      href: overview-patterns-solution-examples.md
+- name: Шаблоны
+  items:
+    - name: Один
+      items:
+        - name: Масштабирование в нескольких облаках
+          href: pattern-cross-cloud-scale.md
+        - name: Гибридные процессы CI/CD в рамках DevOps
+          href: pattern-cicd-pipeline.md
+        - name: Географически распределенное приложение
+          href: pattern-geo-distributed.md
+        - name: Гибридный ретранслятор
+          href: pattern-hybrid-relay.md
+        - name: Многоуровневые данные
+          href: pattern-tiered-data-analytics.md
+        - name: Обучение модели ML на пограничных устройствах
+          href: pattern-train-ml-model-at-edge.md
+    - name: Несколько вариантов
+      items:
+        - name: Масштабирование в разных облаках (локальные данные)
+          href: pattern-cross-cloud-scale-onprem-data.md
+        - name: Определение посещаемости (розничная торговля)
+          href: pattern-retail-footfall-detection.md
+        - name: Обнаружение отсутствия товаров на пограничных устройствах
+          href: pattern-out-of-stock-at-edge.md
+- name: Руководства по развертыванию решений
+  items:
+    - name: Масштабирование в нескольких облаках
+      href: solution-deployment-guide-cross-cloud-scaling.md
+    - name: Масштабирование в разных облаках (локальные данные)
+      href: solution-deployment-guide-cross-cloud-scaling-onprem-data.md
+    - name: Гибридные процессы CI/CD в рамках DevOps
+      href: 'https://aka.ms/hybriddevopsdeploy'
+    - name: Определение посещаемости (розничная торговля)
+      href: solution-deployment-guide-retail-footfall-detection.md
+    - name: Географически распределенное приложение
+      href: solution-deployment-guide-geo-distributed.md
+    - name: Гибридное подключение
+      href: solution-deployment-guide-connectivity.md
+    - name: Гибридное удостоверение
+      href: solution-deployment-guide-identity.md
+    - name: Гибридный ретранслятор
+      href: 'https://aka.ms/hybridrelaydeployment'
+    - name: Многоуровневые данные
+      href: 'https://aka.ms/tiereddatadeploy'
+    - name: Высокодоступная система MongoDB
+      href: solution-deployment-guide-mongodb-ha.md
+    - name: "Высокодоступная платформа SQL Server\_2016"
+      href: solution-deployment-guide-sql-ha.md
+    - name: Определение отсутствия товаров на пограничных устройствах
+      href: 'https://aka.ms/edgeinferencingdeploy'
+    - name: Обучение моделей ML на пограничных устройствах
+      href: 'https://aka.ms/edgetrainingdeploy'
+- name: Основные понятия
+  items:
+    - name: Рекомендации по проектированию гибридных приложений
+      href: overview-app-design-considerations.md
+- name: Сопутствующие материалы
+  items:
+    - name: Документация по Azure
+      href: /azure
+    - name: Документация по Azure Stack
+      href: /azure-stack
+- name: Ресурсы
+  items:
+    - name: Microsoft Learn
+      href: /learn
+    - name: 'Майкрософт: вопросы и ответы'
+      href: /answers/products/
