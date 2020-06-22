@@ -1,0 +1,72 @@
+### YamlMime:Landing
+title: Документация по гибридным шаблонам и решениям Azure
+summary: Узнайте, как использовать гибридные шаблоны и примеры решений при разработке приложений. Azure и Azure Stack позволяют разрабатывать гибридные приложения, основанные на наборе интеллектуальных облачных служб и служб интеллектуальной границы.
+metadata:
+  title: Документация по гибридным шаблонам и решениям Azure
+  description: Узнайте, как использовать гибридные шаблоны и примеры решений при разработке приложений. Azure и Azure Stack позволяют разрабатывать гибридные приложения, основанные на наборе интеллектуальных облачных служб и служб интеллектуальной границы.
+  ms.service: azure-stack
+  ms.topic: landing-page
+  author: BryanLa
+  ms.author: bryanla
+  ms.date: 10/31/2019
+  ms.openlocfilehash: 923e8aa2af78b5d23ba1f25d8b0eb5b80edc4f0a
+  ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 06/17/2020
+  ms.locfileid: "84909763"
+landingContent:
+- title: Сведения о гибридных шаблонах и решениях
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что собой представляют гибридные шаблоны и примеры решений?
+      url: overview-patterns-solution-examples.md
+  - linkListType: concept
+    links:
+    - text: Рекомендации по проектированию гибридных приложений
+      url: overview-app-design-considerations.md
+- title: Обзор гибридных шаблонов
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Масштабирование в нескольких облаках
+      url: pattern-cross-cloud-scale.md
+    - text: Гибридные процессы CI/CD в рамках DevOps
+      url: pattern-cicd-pipeline.md
+    - text: Определение посещаемости (розничная торговля)
+      url: pattern-retail-footfall-detection.md
+    - text: Географически распределенное приложение
+      url: pattern-geo-distributed.md
+- title: Развертывание примеров гибридных решений
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Масштабирование в нескольких облаках
+      url: solution-deployment-guide-cross-cloud-scaling.md
+    - text: Гибридные процессы CI/CD в рамках DevOps
+      url: https://aka.ms/hybriddevopsdeploy
+    - text: Определение посещаемости (розничная торговля)
+      url: solution-deployment-guide-retail-footfall-detection.md
+    - text: Географически распределенное приложение
+      url: solution-deployment-guide-geo-distributed.md
+- title: Сценарий определения посещаемости при розничной торговле
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Модель
+      url: pattern-retail-footfall-detection.md
+  - linkListType: tutorial
+    links:
+    - text: Руководство по развертыванию решений
+      url: solution-deployment-guide-retail-footfall-detection.md
+- title: Масштабирование в разных облаках с использованием локальных данных
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Модель
+      url: pattern-cross-cloud-scale-onprem-data.md
+  - linkListType: tutorial
+    links:
+    - text: Руководство по развертыванию решений
+      url: solution-deployment-guide-cross-cloud-scaling-onprem-data.md
