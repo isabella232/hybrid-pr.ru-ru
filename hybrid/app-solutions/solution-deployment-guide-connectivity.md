@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 0e1a0fc4fb4110fdb406d4b4b2e72abb8f5412c9
-ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
-ms.translationtype: MT
+ms.openlocfilehash: 16c5d7820e8c865a9f88cb00da5cc7c854379414
+ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84910871"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86477292"
 ---
 # <a name="configure-hybrid-cloud-connectivity-using-azure-and-azure-stack-hub"></a>Настройка подключения к гибридному облаку с помощью Azure и Azure Stack Hub
 
@@ -37,7 +37,7 @@ ms.locfileid: "84910871"
 ### <a name="azure"></a>Azure
 
 - Если у вас еще нет подписки Azure, [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), прежде чем начинать работу.
-- Создайте [веб-приложение](https://docs.microsoft.com/vsts/build-release/apps/cd/azure/aspnet-core-to-azure-webapp?view=vsts&tabs=vsts) в Azure. Запишите URL-адрес веб-приложения для дальнейшего использования в решении.
+- Создайте [веб-приложение](/vsts/build-release/apps/cd/azure/aspnet-core-to-azure-webapp?tabs=vsts&view=vsts) в Azure. Запишите URL-адрес веб-приложения для дальнейшего использования в решении.
 
 ### <a name="azure-stack-hub"></a>Azure Stack Hub
 
@@ -69,7 +69,7 @@ ms.locfileid: "84910871"
 
 #### <a name="solution-example-values"></a>Примеры значений для решения
 
-В примерах для этого решения используйте следующие значения. Вы можете создать на их основе тестовую среду или просто изучить для лучшего понимания примеров. Дополнительные сведения о параметрах шлюза VPN см. в разделе [Сведения о параметрах VPN-шлюза](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings).
+В примерах для этого решения используйте следующие значения. Вы можете создать на их основе тестовую среду или просто изучить для лучшего понимания примеров. Дополнительные сведения о параметрах шлюза VPN см. в разделе [Сведения о параметрах VPN-шлюза](/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings).
 
 Спецификации подключения:
 
@@ -99,7 +99,7 @@ IP-адреса сетей и подсетей:
 
 ## <a name="create-a-virtual-network-in-global-azure-and-azure-stack-hub"></a>Создание виртуальной сети в глобальных Azure и Azure Stack Hub
 
-Чтобы создать виртуальную сеть с помощью портала, сделайте следующее. Если вы используете статью только для предложенного решения, то можете использовать эти [примеры значений](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#values). Если вы настраиваете реальную рабочую среду, замените эти примеры соответствующими значениями.
+Чтобы создать виртуальную сеть с помощью портала, сделайте следующее. Если вы используете статью только для предложенного решения, то можете использовать эти [примеры значений](/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal#values). Если вы настраиваете реальную рабочую среду, замените эти примеры соответствующими значениями.
 
 > [!IMPORTANT]
 > Следите за тем, чтобы IP-адреса в адресных пространствах виртуальной сети Azure и (или) Azure Stack Hub не перекрывались.
@@ -212,4 +212,4 @@ IP-адреса сетей и подсетей:
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- Дополнительные сведения о шаблонах для облака Azure см. в статье [Конструктивные шаблоны облачных решений](https://docs.microsoft.com/azure/architecture/patterns).
+- Дополнительные сведения о шаблонах для облака Azure см. в статье [Конструктивные шаблоны облачных решений](/azure/architecture/patterns).

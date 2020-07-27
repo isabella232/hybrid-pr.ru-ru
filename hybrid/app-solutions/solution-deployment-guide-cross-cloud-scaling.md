@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 740a8c0ec904fe8eb3f9744626bc9dd6655bdb52
-ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
-ms.translationtype: MT
+ms.openlocfilehash: 10cb042e2c6d0c6cb567e14072cd80bc663d686c
+ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84911529"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86477343"
 ---
 # <a name="deploy-an-app-that-scales-cross-cloud-using-azure-and-azure-stack-hub"></a>Развертывание приложения, которое выполняет масштабирование в нескольких облаках с помощью Azure и Azure Stack Hub
 
@@ -68,7 +68,7 @@ ms.locfileid: "84911529"
 
 ### <a name="get-a-custom-domain-and-configure-dns"></a>Получение личного домена и настройка DNS
 
-Обновите файл зоны DNS для домена. Azure AD проверит принадлежность имени личного домена. Вы можете использовать [Azure DNS](https://docs.microsoft.com/azure/dns/dns-getstarted-portal) для записей Azure, Office 365 и внешних записей DNS в Azure или добавить запись DNS [в другой регистратор DNS](https://support.office.com/article/Create-DNS-records-for-Office-365-when-you-manage-your-DNS-records-b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23/).
+Обновите файл зоны DNS для домена. Azure AD проверит принадлежность имени личного домена. Вы можете использовать [Azure DNS](/azure/dns/dns-getstarted-portal) для записей Azure, Office 365 и внешних записей DNS в Azure или добавить запись DNS [в другой регистратор DNS](https://support.office.com/article/Create-DNS-records-for-Office-365-when-you-manage-your-DNS-records-b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23/).
 
 1. Зарегистрируйте личный домен у уполномоченного регистратора.
 2. Войдите в соответствующий регистратор доменных имен. Для обновления DNS может потребоваться утвержденный администратор.
@@ -97,7 +97,7 @@ Azure Repos
 
 ### <a name="create-self-contained-web-app-deployment-for-app-services-in-both-clouds"></a>Создание автономного развертывания веб-приложения для служб приложений в обоих облаках
 
-1. Измените файл **WebApplication.csproj**. Выберите `Runtimeidentifier` и добавьте `win10-x64`. (См. документацию по [автономному развертыванию](https://docs.microsoft.com/dotnet/core/deploying/deploy-with-vs#simpleSelf)).
+1. Измените файл **WebApplication.csproj**. Выберите `Runtimeidentifier` и добавьте `win10-x64`. (См. документацию по [автономному развертыванию](/dotnet/core/deploying/deploy-with-vs#simpleSelf)).
 
     ![Изменение файла проекта веб-приложения](media/solution-deployment-guide-cross-cloud-scaling/image3.png)
 
@@ -113,7 +113,7 @@ Azure Repos
 
     ![Добавление кода в веб-приложение](media/solution-deployment-guide-cross-cloud-scaling/image4.png)
 
-3. Запустите сборку. Процесс [сборки автономного развертывания](https://docs.microsoft.com/dotnet/core/deploying/deploy-with-vs#simpleSelf) будет публиковать артефакты, которые выполняются в Azure и Azure Stack Hub.
+3. Запустите сборку. Процесс [сборки автономного развертывания](/dotnet/core/deploying/deploy-with-vs#simpleSelf) будет публиковать артефакты, которые выполняются в Azure и Azure Stack Hub.
 
 ## <a name="use-an-azure-hosted-agent"></a>Использование агента, размещенного в Azure
 
@@ -211,7 +211,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 21. Сохраните все изменения.
 
 > [!Note]  
-> Некоторые параметры для задач могли быть автоматически определены как [переменные среды](https://docs.microsoft.com/azure/devops/pipelines/release/variables?view=vsts&tabs=batch#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры нельзя изменить в параметрах задачи. Для этого нужно выбрать родительский элемент среды.
+> Некоторые параметры для задач могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры нельзя изменить в параметрах задачи. Для этого нужно выбрать родительский элемент среды.
 
 ## <a name="publish-to-azure-stack-hub-via-visual-studio"></a>Публикация в Azure Stack Hub с помощью Visual Studio
 
@@ -254,7 +254,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 
 #### <a name="create-self-contained-web-app-deployment-for-app-services-in-both-clouds"></a>Создание автономного развертывания веб-приложения для служб приложений в обоих облаках
 
-1. Измените файл **WebApplication.csproj**. Выберите `Runtimeidentifier` и добавьте `win10-x64`. Дополнительные сведения см. в документации [по автономному развертыванию](https://docs.microsoft.com/dotnet/core/deploying/deploy-with-vs#simpleSelf).
+1. Измените файл **WebApplication.csproj**. Выберите `Runtimeidentifier` и добавьте `win10-x64`. Дополнительные сведения см. в документации [по автономному развертыванию](/dotnet/core/deploying/deploy-with-vs#simpleSelf).
 
 2. Добавьте код в Azure Repos с помощью Team Explorer.
 
@@ -268,7 +268,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 
 3. Добавьте код **-r win10-x64** в поле **Аргумент**. Это необходимо, чтобы активировать автономное развертывание с использованием .NET Core.
 
-4. Запустите сборку. Процесс [сборки автономного развертывания](https://docs.microsoft.com/dotnet/core/deploying/deploy-with-vs#simpleSelf) будет публиковать артефакты, которые могут выполняться в Azure и Azure Stack Hub.
+4. Запустите сборку. Процесс [сборки автономного развертывания](/dotnet/core/deploying/deploy-with-vs#simpleSelf) будет публиковать артефакты, которые могут выполняться в Azure и Azure Stack Hub.
 
 #### <a name="use-an-azure-hosted-build-agent"></a>Использование агента сборки, размещенного в Azure
 
@@ -329,7 +329,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 23. Сохраните все изменения.
 
 > [!Note]  
-> Некоторые параметры для задач выпуска могли быть автоматически определены как [переменные среды](https://docs.microsoft.com/azure/devops/pipelines/release/variables?view=vsts&tabs=batch#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры невозможно изменить в настройках задачи, но можно изменить в элементах родительской среды.
+> Некоторые параметры для задач выпуска могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры невозможно изменить в настройках задачи, но можно изменить в элементах родительской среды.
 
 ## <a name="create-a-release"></a>Создание выпуска
 
@@ -361,4 +361,4 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- Дополнительные сведения о шаблонах для облака Azure см. в статье [Конструктивные шаблоны облачных решений](https://docs.microsoft.com/azure/architecture/patterns).
+- Дополнительные сведения о шаблонах для облака Azure см. в статье [Конструктивные шаблоны облачных решений](/azure/architecture/patterns).
