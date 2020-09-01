@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 741ddf2c3ed234788af359dd233f6a656fbea13c
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 27d07070becfa902a715b451baae7c81c7e4b46f
+ms.sourcegitcommit: 56980e3c118ca0a672974ee3835b18f6e81b6f43
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477360"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88886838"
 ---
 # <a name="direct-traffic-with-a-geo-distributed-app-using-azure-and-azure-stack-hub"></a>Перенаправление трафика с помощью географически распределенного приложения, созданного с использованием Azure и Azure Stack Hub
 
@@ -84,7 +84,7 @@ ms.locfileid: "86477360"
 
 ### <a name="obtain-a-custom-domain-and-configure-dns"></a>Получение личного домена и настройка DNS
 
-Обновите файл зоны DNS для домена. Azure AD сможет проверить принадлежность имени личного домена. Вы можете использовать [Azure DNS](/azure/dns/dns-getstarted-portal) для записей Azure, Office 365 и внешних записей DNS в Azure или добавить запись DNS [в другой регистратор DNS](https://support.office.com/article/Create-DNS-records-for-Office-365-when-you-manage-your-DNS-records-b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23/).
+Обновите файл зоны DNS для домена. Azure AD сможет проверить принадлежность имени личного домена. Вы можете использовать [Azure DNS](/azure/dns/dns-getstarted-portal) для записей Azure, Microsoft 365 и внешних записей DNS в Azure или добавить запись DNS в [другой регистратор DNS](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 1. Зарегистрируйте личный домен у уполномоченного регистратора.
 
@@ -256,7 +256,7 @@ Azure DevOps Services предоставляет конвейер с широк�
 
 - Приобретите доменное имя и предоставьте поставщику домена доступ к реестру DNS.
 
-Обновите файл зоны DNS для домена. Azure AD проверит принадлежность имени личного домена. Вы можете использовать [Azure DNS](/azure/dns/dns-getstarted-portal) для записей Azure, Office 365 и внешних записей DNS в Azure или добавить запись DNS [в другой регистратор DNS](https://support.office.com/article/Create-DNS-records-for-Office-365-when-you-manage-your-DNS-records-b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23/).
+Обновите файл зоны DNS для домена. Azure AD проверит принадлежность имени личного домена. Вы можете использовать [Azure DNS](/azure/dns/dns-getstarted-portal) для записей Azure, Microsoft 365 и внешних записей DNS в Azure или добавить запись DNS в [другой регистратор DNS](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 - Зарегистрируйте личный домен у уполномоченного регистратора.
 
