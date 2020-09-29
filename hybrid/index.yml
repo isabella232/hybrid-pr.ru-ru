@@ -10,12 +10,12 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 09/02/2020
-  ms.openlocfilehash: 8109b1b42c133afa3179b362c543118965486ac7
-  ms.sourcegitcommit: 64698a0824c87d0838b57cff05187f4225bb619c
+  ms.openlocfilehash: fe346e09aba6e073f291037eb767a3936dea3a99
+  ms.sourcegitcommit: 1c9d681b45f3cc91fd6896badf998be68e284a35
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "91209711"
+  ms.lasthandoff: 09/28/2020
+  ms.locfileid: "91407724"
 highlightedContent:
   items:
   - title: 'Ignite 2020: гибридные решения (секции)'
@@ -263,20 +263,6 @@ conceptualContent:
     - url: /azure/fxt-edge-filer/fxt-overview
       itemType: overview
       text: Azure FXT Edge Filer
-  - title: Инструменты
-    links:
-    - url: /dotnet/azure/
-      itemType: overview
-      text: Разработка .NET для Azure
-    - url: https://azure.github.io/Vision-AI-DevKit-Pages/
-      itemType: overview
-      text: Пакет разработки для искусственного интеллекта визуального распознавания
-    - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
-      itemType: overview
-      text: Azure IoT Tools для Visual Studio Code
-    - url: /visualstudio/azure/
-      itemType: overview
-      text: Разработка для Azure с помощью Visual Studio
 additionalContent:
   sections:
   - title: Гибридные решения
@@ -308,47 +294,113 @@ additionalContent:
         text: Определение посещаемости (розничная торговля)
       - url: ./app-solutions/solution-deployment-guide-geo-distributed.md
         text: Географически распределенное приложение
-  - title: Дополнительные ресурсы
+  - title: Ресурсы для ознакомления и обучения
     items:
-    - title: Общие сведения
+    - title: Azure Stack
       links:
-      - url: /azure-stack/operator/compare-azure-azure-stack
-        text: Глобальное облако Azure и Stack Azure
-      - url: https://azure.microsoft.com/blog/topics/hybrid/
-        text: Блог, посвященный гибридным решениям Azure
-      - url: https://azure.microsoft.com/overview/azure-hybrid/
-        text: Гибридные возможности Azure
-      - url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
-        text: Azure Hybrid Virtual Event
-      - url: https://channel9.msdn.com/Search?term=%22Azure%20Stack%20Hub%20Partner%20Solutions%20Series%22
-        text: Клиентские решения Azure Stack Hub
-      - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
-        text: Истории клиентов, использующих гибридные облачные решения
-      - url: /answers/products/
-        text: 'Форумы Майкрософт: вопросы и ответы'
-    - title: Ознакомление и обучение
-      links:
-      - url: https://github.com/likamrat/azure_arc
-        text: Руководства по началу работы с Azure Arc
-      - url: https://github.com/Azure-Samples/AI-Video-Intelligence-Solution-Accelerator
-        text: Акселератор решения аналитики видео с использованием ИИ в Azure IoT Edge
-      - url: https://labs.iotedge.dev/
-        text: Практические задания по Azure IoT Edge
-      - url: https://www.azureiotsolutions.com/Accelerators
-        text: Акселераторы решений Azure IoT
       - url: /azure-stack/asdk
         text: Комплект SDK Azure Stack
       - url: https://github.com/Azure/AzureStackHCI-EvalGuide
         text: Ознакомительное руководство по Azure Stack HCI
       - url: https://www.youtube.com/watch?v=to8D7Xl9SU8
         text: Вводные сведения о гибридных приложениях в Azure Stack
-      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
-        text: Сертифицировано для устройств Azure IoT Edge
-      - url: /samples/browse/
-        text: 'Примеры кода: браузер'
-      - url: https://docs.docker.com/
-        text: Документация по Docker
       - url: https://www.youtube.com/watch?v=2lw8zOpJTn0
         text: Динамическое масштабирование из Azure Stack Hub в Azure
+    - title: Edge
+      links:
+      - url: https://github.com/Azure-Samples/AI-Video-Intelligence-Solution-Accelerator
+        text: Акселератор решения аналитики видео с использованием ИИ в Azure IoT Edge
+      - url: https://labs.iotedge.dev/
+        text: Практические задания по Azure IoT Edge
+      - url: https://www.azureiotsolutions.com/Accelerators
+        text: Акселераторы решений Azure IoT
+      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
+        text: Сертифицировано для устройств Azure IoT Edge
+    - title: Общее
+      links:
+      - url: /learn/modules/align-requirements-in-azure/
+        text: Подбор типов облака и моделей служб Azure в соответствии с требованиями
+      - url: https://azure.microsoft.com/overview/azure-hybrid/
+        text: Гибридные возможности Azure
+      - url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
+        text: Azure Hybrid Virtual Event
+      - url: /learn/modules/intro-to-azure-hybrid-services/
+        text: Вводные сведения о гибридном облаке Azure
       - url: /learn
         text: Microsoft Learn
+    - title: Идентификация и безопасность
+      links:
+      - url: /learn/modules/azure-sentinel-deploy-configure/
+        text: Развертывание Azure Sentinel и подключение источников данных Azure
+      - url: /learn/modules/implement-hybrid-identity-windows-server/
+        text: Реализация гибридного удостоверения с использованием Windows Server
+      - url: /learn/modules/intro-to-azure-sentinel/
+        text: Вводные сведения об Azure Sentinel
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
+        text: Управление гибридным облаком Windows Server, а также его мониторинг и защита
+    - title: Управление
+      links:
+      - url: https://github.com/likamrat/azure_arc
+        text: Руководства по началу работы с Azure Arc
+      - url: /learn/modules/describe-high-availability-disaster-recovery-strategies/
+        text: Стратегии реализации высокой доступности и аварийного восстановления
+      - url: /learn/modules/explore-iaas-paas-platform-tools-for-high-availability-disaster-recovery/
+        text: Средства платформ IaaS и PaaS для реализации высокой доступности и аварийного восстановления
+      - url: /learn/modules/intro-to-azure-arc/
+        text: Вводные сведения об Azure Arc
+      - url: /learn/modules/manage-hybrid-workloads-azure-arc/
+        text: Управление гибридными рабочими нагрузками с помощью Azure Arc
+      - url: /learn/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/
+        text: Мониторинг виртуальных машин IaaS в Windows Server и гибридных экземпляров
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
+        text: Управление гибридным облаком Windows Server, а также его мониторинг и защита
+    - title: Сеть
+      links:
+      - url: /learn/modules/design-a-hybrid-network-architecture/
+        text: Проектирование гибридной сетевой архитектуры в Azure
+      - url: /learn/modules/expose-hybrid-services-with-azure-relay/
+        text: Безопасный доступ к гибридным службам с помощью Azure Relay
+      - url: /learn/modules/implement-hybrid-network-infrastructure/
+        text: Реализация инфраструктуры гибридной сети
+    - title: Память
+      links:
+      - url: /learn/modules/implement-hybrid-file-server-infrastructure/
+        text: Реализация инфраструктуры гибридного файлового сервера
+      - url: /learn/modules/implement-hybrid-backup-recovery-windows-server-iaas/
+        text: Реализация гибридного резервного копирования и восстановления с использованием IaaS в Windows Server
+  - title: Дополнительные ресурсы
+    items:
+    - title: Разработчик
+      links:
+      - url: /azure/developer/
+        text: Документация и средства Azure для разработчиков
+      - url: /azure/architecture/hybrid/azure-arc-hybrid-config
+        text: Гибридные архитектуры Azure
+      - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
+        text: Azure IoT Tools для Visual Studio Code
+      - url: /samples/browse/
+        text: 'Примеры кода: браузер'
+      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
+        text: Пакет разработки для искусственного интеллекта визуального распознавания
+      - url: /visualstudio/azure/
+        text: Разработка для Azure с помощью Visual Studio
+    - title: Общее
+      links:
+      - url: https://azure.microsoft.com/blog/topics/hybrid/
+        text: Блог, посвященный гибридным решениям Azure
+      - url: https://azure.microsoft.com/overview/azure-hybrid/
+        text: Гибридные возможности Azure
+      - url: https://channel9.msdn.com/Search?term=%22Azure%20Stack%20Hub%20Partner%20Solutions%20Series%22
+        text: Клиентские решения Azure Stack Hub
+      - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
+        text: Истории клиентов, использующих гибридные облачные решения
+    - title: Справка и поддержка
+      links:
+      - url: https://azure.microsoft.com/support/options/
+        text: Поддержка Azure
+      - url: https://feedback.azure.com/
+        text: Отзывы на Azure UserVoice
+      - url: /answers/products/
+        text: 'Форумы Майкрософт: вопросы и ответы'
+      - url: https://stackoverflow.com/
+        text: Stack Overflow
