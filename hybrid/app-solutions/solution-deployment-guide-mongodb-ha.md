@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: f6064aaa1087a3c0cfc26e09371e81752c777edb
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: def9abaa2a7231648f11453f66119399be015a4d
+ms.sourcegitcommit: 485a1f97fa1579364e2be1755cadfc5ea89db50e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477275"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91852513"
 ---
 # <a name="deploy-a-highly-available-mongodb-solution-to-azure-and-azure-stack-hub"></a>Развертывание высокодоступного решения MongoDB в Azure и Azure Stack Hub
 
@@ -105,5 +105,5 @@ ms.locfileid: "86477275"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - Если вы включили виртуальную машину инсталляционного сервера в Azure Stack Hub DR, вы можете подключиться по протоколу SSH для взаимодействия с кластером MongoDB, установив Mongo CLI. Подробные сведения о взаимодействии с MongoDB с помощью Mongo см. в статье об [оболочке Mongo](https://docs.mongodb.com/manual/mongo/).
-- Подробные сведения о приложениях гибридного облака см. в статье о [гибридных облачных решениях](https://aka.ms/azsdevtutorials).
+- Подробные сведения о приложениях гибридного облака см. в статье о [гибридных облачных решениях](/azure-stack/user/).
 - Измените код на основе примера на сайте [GitHub](https://github.com/Azure-Samples/azure-intelligent-edge-patterns).

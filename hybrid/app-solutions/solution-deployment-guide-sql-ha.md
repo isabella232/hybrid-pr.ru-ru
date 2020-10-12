@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 85b859457b9b54a973c5fc23329b927212b60a07
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 2c20d621247ec8e1278feb092586232cc08d5480
+ms.sourcegitcommit: 485a1f97fa1579364e2be1755cadfc5ea89db50e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477088"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91852479"
 ---
 # <a name="deploy-a-sql-server-2016-availability-group-to-azure-and-azure-stack-hub"></a>Развертывание группы доступности SQL Server 2016 в Azure и Azure Stack Hub
 
@@ -106,5 +106,5 @@ ms.locfileid: "86477088"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - SQL Server Management Studio позволяет выполнить отработку отказа кластера вручную. См. статью [Выполнение принудительного перехода на другой ресурс вручную для группы доступности Always On (SQL Server)](/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server?view=sql-server-2017).
-- Ознакомьтесь с дополнительными сведениями о приложениях гибридного облака. См. документацию по [решениям гибридного облака](https://aka.ms/azsdevtutorials).
+- Ознакомьтесь с дополнительными сведениями о приложениях гибридного облака. См. документацию по [решениям гибридного облака](/azure-stack/user/).
 - Используйте собственные данные или измените код на основе примера на сайте [GitHub](https://github.com/Azure-Samples/azure-intelligent-edge-patterns).
