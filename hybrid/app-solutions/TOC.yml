@@ -1,8 +1,8 @@
-- name: Документация по гибридным решениям Azure
+- name: Документация по гибридным и многооблачным решениям
   href: index.yml
 - name: Обзор
   items:
-    - name: Гибридные шаблоны и примеры решений
+    - name: Примеры шаблонов и решений
       href: overview-patterns-solution-examples.md
 - name: Шаблоны
   items:
@@ -58,7 +58,7 @@
       href: 'https://aka.ms/edgetrainingdeploy'
 - name: Основные понятия
   items:
-    - name: Рекомендации по проектированию гибридных приложений
+    - name: Рекомендации по проектированию приложений
       href: overview-app-design-considerations.md
 - name: Сопутствующие материалы
   items:
