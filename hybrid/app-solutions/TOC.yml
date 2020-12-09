@@ -26,6 +26,8 @@
           href: pattern-cross-cloud-scale-onprem-data.md
         - name: Определение посещаемости (розничная торговля)
           href: pattern-retail-footfall-detection.md
+        - name: Кластер Kubernetes с высоким уровнем доступности
+          href: pattern-highly-available-kubernetes.md
         - name: Обнаружение отсутствия товаров на пограничных устройствах
           href: pattern-out-of-stock-at-edge.md
 - name: Руководства по развертыванию решений
@@ -40,6 +42,8 @@
       href: solution-deployment-guide-retail-footfall-detection.md
     - name: Географически распределенное приложение
       href: solution-deployment-guide-geo-distributed.md
+    - name: Кластер Kubernetes с высоким уровнем доступности
+      href: solution-deployment-guide-highly-available-kubernetes.md
     - name: Гибридное подключение
       href: solution-deployment-guide-connectivity.md
     - name: Гибридное удостоверение
