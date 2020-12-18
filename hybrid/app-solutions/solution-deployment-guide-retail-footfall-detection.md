@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 5f2e18e164e54f60b1bb7a14026a0c75c7d7ce69
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 2177b32474dea695967e197acbd4bc1e18422d7b
+ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477173"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96901496"
 ---
 # <a name="deploy-an-ai-based-footfall-detection-solution-using-azure-and-azure-stack-hub"></a>Развертывание решения определения посещаемости на основе искусственного интеллекта с использованием Azure и Azure Stack Hub
 
@@ -26,7 +26,7 @@ ms.locfileid: "86477173"
 > - Использование комплекта SDK для искусственного интеллекта Пользовательского визуального распознавания для вывода на пограничных устройствах.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![Схема основных аспектов проектирования гибридных приложений](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > Microsoft Azure Stack Hub — это расширение Azure. Azure Stack Hub обеспечивает гибкость и высокую скорость внедрения инноваций облачных вычислений в локальной среде. Это решение позволяет использовать единственное гибридное облако, с помощью которого можно создавать и развертывать гибридные приложения в любой точке мира.  
 > 
 > В руководстве по [проектированию гибридных приложений](overview-app-design-considerations.md) перечислены основные аспекты качественного программного обеспечения (размещение, масштабируемость, доступность, устойчивость, управляемость и безопасность), которые следует учитывать при разработке, развертывании и использовании гибридных приложений. Эти рекомендации помогут оптимизировать разработку гибридных приложений и предотвратить появление проблем с рабочими средами.
@@ -44,7 +44,7 @@ ms.locfileid: "86477173"
 - Создайте два субъекта-службы в каталоге:
   - один, настроенный для использования с ресурсами Azure, с доступом в области подписки Azure;
   - и еще один, настроенный для использования с ресурсами Azure Stack Hub, с доступом в области подписки Azure Stack Hub.
-  - Дополнительные сведения о создании субъектов-служб и авторизации доступа см. в статье [Использование удостоверения приложения для доступа к ресурсам](/azure-stack/operator/azure-stack-create-service-principals.md). Если вы предпочитаете использовать Azure CLI, ознакомьтесь со статьей [Создание субъекта-службы Azure с помощью Azure CLI](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest).
+  - Дополнительные сведения о создании субъектов-служб и авторизации доступа см. в статье [Использование удостоверения приложения для доступа к ресурсам](/azure-stack/operator/azure-stack-create-service-principals.md). Если вы предпочитаете использовать Azure CLI, ознакомьтесь со статьей [Создание субъекта-службы Azure с помощью Azure CLI](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest&preserve-view=true).
 - Разверните Azure Cognitive Services в Azure или Azure Stack Hub.
   - Сначала [узнайте больше о Cognitive Services](https://azure.microsoft.com/services/cognitive-services/).
   - Затем перейдите к статье [Развертывание Azure Cognitive Services в Azure Stack](/azure-stack/user/azure-stack-solution-template-cognitive-services.md), чтобы развернуть Cognitive Services в Azure Stack Hub. Сначала необходимо зарегистрироваться для доступа к предварительной версии.
@@ -194,5 +194,5 @@ porter uninstall footfall-camera –tag intelligentedge/footfall-camera-deployme
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- Дополнительные сведения [Рекомендации по проектированию гибридных приложений].(overview-app-design-considerations.md)
+- Узнайте больше об [аспектах проектирования гибридных приложений](overview-app-design-considerations.md).
 - Изучите и предложите улучшения для [кода в этом примере на сайте GitHub](https://github.com/Azure-Samples/azure-intelligent-edge-patterns/tree/master/footfall-analysis).
