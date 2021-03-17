@@ -10,12 +10,12 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 03/09/2021
-  ms.openlocfilehash: 218f52c27dee54dd4265a9c1eebc6de330bd6154
-  ms.sourcegitcommit: a5851a7351c39249a58da8d0cf121bbf0b306dca
+  ms.openlocfilehash: 59508b4cce80dd3a18a3e36feef6690290e26168
+  ms.sourcegitcommit: 25bfa6f85c1295ecbaf24e812ccebf1b7220bef8
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/10/2021
-  ms.locfileid: "102606199"
+  ms.lasthandoff: 03/16/2021
+  ms.locfileid: "103600664"
 highlightedContent:
   items:
   - title: 'Ignite 2021: доклады о гибридных решениях'
@@ -336,12 +336,16 @@ additionalContent:
       links:
       - url: /learn/modules/align-requirements-in-azure/
         text: Подбор типов облака и моделей служб Azure в соответствии с требованиями
+      - url: /azure/architecture/browse/?azure_categories=hybrid
+        text: Гибридные архитектуры Azure
       - url: https://azure.microsoft.com/overview/azure-hybrid/
         text: Гибридные возможности Azure
       - url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
         text: Azure Hybrid Virtual Event
+      - url: /azure/cloud-adoption-framework/scenarios/hybrid/scenario-overview
+        text: 'Cloud Adoption Framework: сценарии с гибридными и многооблачными средами'
       - url: /learn/modules/intro-to-azure-hybrid-services/
-        text: Вводные сведения о гибридном облаке Azure
+        text: Введение в гибридные облачные службы Azure
       - url: https://events.microsoft.com/
         text: Каталог событий Майкрософт
       - url: /learn
@@ -350,6 +354,10 @@ additionalContent:
       links:
       - url: /learn/modules/azure-sentinel-deploy-configure/
         text: Развертывание Azure Sentinel и подключение источников данных Azure
+      - url: /learn/modules/expose-hybrid-services-with-azure-relay/
+        text: Безопасный доступ к гибридным службам с помощью Azure Relay
+      - url: /learn/modules/implement-manage-hybrid-identity/
+        text: Реализация гибридных удостоверений и управление ими
       - url: /learn/modules/implement-hybrid-identity-windows-server/
         text: Реализация гибридного удостоверения с использованием Windows Server
       - url: /learn/modules/intro-to-azure-sentinel/
@@ -358,16 +366,18 @@ additionalContent:
         text: Управление гибридным облаком Windows Server, а также его мониторинг и защита
     - title: Управление
       links:
-      - url: https://github.com/likamrat/azure_arc
+      - url: https://azurearcjumpstart.io/
         text: Руководства по началу работы с Azure Arc
-      - url: /learn/modules/describe-high-availability-disaster-recovery-strategies/
-        text: Стратегии реализации высокой доступности и аварийного восстановления
-      - url: /learn/modules/explore-iaas-paas-platform-tools-for-high-availability-disaster-recovery/
-        text: Средства платформ IaaS и PaaS для реализации высокой доступности и аварийного восстановления
+      - url: /learn/browse/?terms=%22%20Arc%20%22
+        text: Модули Learn по Azure Arc
+      - url: /describe-high-availability-disaster-recovery-strategies/
+        text: Описание стратегий реализации высокой доступности и аварийного восстановления
+      - url: /learn/browse/?terms="disaster%20recovery"
+        text: Модули Learn по аварийному восстановлению
+      - url: /learn/browse/?terms="high%20availability"
+        text: Модули Learn по реализации высокого уровня доступности
       - url: /learn/modules/intro-to-azure-arc/
-        text: Вводные сведения об Azure Arc
-      - url: /learn/modules/manage-hybrid-workloads-azure-arc/
-        text: Управление гибридными рабочими нагрузками с помощью Azure Arc
+        text: Общие сведения об Azure Arc
       - url: /learn/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/
         text: Мониторинг виртуальных машин IaaS в Windows Server и гибридных экземпляров
       - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
@@ -388,21 +398,7 @@ additionalContent:
         text: Реализация гибридного резервного копирования и восстановления с использованием IaaS в Windows Server
   - title: Дополнительные ресурсы
     items:
-    - title: Разработчик
-      links:
-      - url: /azure/developer/
-        text: Документация и средства Azure для разработчиков
-      - url: /azure/architecture/browse/?azure_categories=hybrid
-        text: Гибридные архитектуры Azure
-      - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
-        text: Azure IoT Tools для Visual Studio Code
-      - url: /samples/browse/
-        text: 'Примеры кода: браузер'
-      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
-        text: Пакет разработки для искусственного интеллекта визуального распознавания
-      - url: /visualstudio/azure/
-        text: Разработка для Azure с помощью Visual Studio
-    - title: Общее
+    - title: Общие сведения
       links:
       - url: https://azure.microsoft.com/blog/topics/hybrid/
         text: Блог, посвященный гибридным решениям Azure
@@ -412,7 +408,7 @@ additionalContent:
         text: Клиентские решения Azure Stack Hub
       - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
         text: Истории клиентов, использующих гибридные облачные решения
-    - title: Справка и поддержка
+    - title: Поддержка
       links:
       - url: https://azure.microsoft.com/support/options/
         text: Поддержка Azure
@@ -422,3 +418,15 @@ additionalContent:
         text: 'Форумы Майкрософт: вопросы и ответы'
       - url: https://stackoverflow.com/
         text: Stack Overflow
+    - title: Технические вопросы
+      links:
+      - url: /azure/developer/
+        text: Документация и средства Azure для разработчиков
+      - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
+        text: Azure IoT Tools для Visual Studio Code
+      - url: /samples/browse/
+        text: 'Примеры кода: браузер'
+      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
+        text: Пакет разработки для искусственного интеллекта визуального распознавания
+      - url: /visualstudio/azure/
+        text: Разработка для Azure с помощью Visual Studio
