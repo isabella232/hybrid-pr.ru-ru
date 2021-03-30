@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 2177b32474dea695967e197acbd4bc1e18422d7b
-ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
+ms.openlocfilehash: caedbd4758b9ae8c93cf9bb625ed9aac68bfa196
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96901496"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895376"
 ---
 # <a name="deploy-an-ai-based-footfall-detection-solution-using-azure-and-azure-stack-hub"></a>Развертывание решения определения посещаемости на основе искусственного интеллекта с использованием Azure и Azure Stack Hub
 
@@ -37,22 +37,22 @@ ms.locfileid: "96901496"
 
 - Ознакомьтесь с разделом [Шаблон определения посещаемости](pattern-retail-footfall-detection.md).
 - Получите пользовательский доступ к Пакету средств разработки Azure Stack (ASDK) или экземпляру интегрированной системы Azure Stack Hub, используя:
-  - [Службу приложений Azure в установленном поставщике ресурсов Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-overview.md). Для доступа к экземпляру Azure Stack Hub требуется доступ оператора. Можно также обратиться к администратору для установки.
+  - [Службу приложений Azure в установленном поставщике ресурсов Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-overview). Для доступа к экземпляру Azure Stack Hub требуется доступ оператора. Можно также обратиться к администратору для установки.
   - Подписка на предложение, которое предоставляет квоту на Службу приложений и службу хранилища. Для создания предложения необходим доступ оператора.
 - Получите доступ к подписке Azure.
   - Если у вас еще нет подписки Azure, [подпишитесь для получения бесплатной пробной учетной записи](https://azure.microsoft.com/free/), прежде чем начинать работу.
 - Создайте два субъекта-службы в каталоге:
   - один, настроенный для использования с ресурсами Azure, с доступом в области подписки Azure;
   - и еще один, настроенный для использования с ресурсами Azure Stack Hub, с доступом в области подписки Azure Stack Hub.
-  - Дополнительные сведения о создании субъектов-служб и авторизации доступа см. в статье [Использование удостоверения приложения для доступа к ресурсам](/azure-stack/operator/azure-stack-create-service-principals.md). Если вы предпочитаете использовать Azure CLI, ознакомьтесь со статьей [Создание субъекта-службы Azure с помощью Azure CLI](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest&preserve-view=true).
+  - Дополнительные сведения о создании субъектов-служб и авторизации доступа см. в статье [Использование удостоверения приложения для доступа к ресурсам](/azure-stack/operator/azure-stack-create-service-principals). Если вы предпочитаете использовать Azure CLI, ознакомьтесь со статьей [Создание субъекта-службы Azure с помощью Azure CLI](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest&preserve-view=true).
 - Разверните Azure Cognitive Services в Azure или Azure Stack Hub.
   - Сначала [узнайте больше о Cognitive Services](https://azure.microsoft.com/services/cognitive-services/).
-  - Затем перейдите к статье [Развертывание Azure Cognitive Services в Azure Stack](/azure-stack/user/azure-stack-solution-template-cognitive-services.md), чтобы развернуть Cognitive Services в Azure Stack Hub. Сначала необходимо зарегистрироваться для доступа к предварительной версии.
+  - Затем перейдите к статье [Развертывание Azure Cognitive Services в Azure Stack](/azure-stack/user/azure-stack-solution-template-cognitive-services), чтобы развернуть Cognitive Services в Azure Stack Hub. Сначала необходимо зарегистрироваться для доступа к предварительной версии.
 - Клонируйте или скачайте ненастроенный комплект SDK для искусственного интеллекта Пользовательского визуального распознавания Azure. Дополнительные сведения см. на странице со сведениями о [концепции комплекта SDK для искусственного интеллекта](https://azure.github.io/Vision-AI-DevKit-Pages/).
 - Зарегистрируйтесь для использования учетной записи Power BI.
 - Ключ подписки API Распознавания лиц Azure Cognitive Services и URL-адрес конечной точки. На странице [Пробная версия Cognitive Services](https://azure.microsoft.com/try/cognitive-services/?api=face-api) можно получить бесплатную пробную версию. Можно также следовать инструкциям в статье [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account) (Создание ресурса Cognitive Services на портале Azure).
 - Установите следующие ресурсы для разработки:
-  - [Azure CLI 2.0](/azure-stack/user/azure-stack-version-profiles-azurecli2.md)
+  - [Azure CLI 2.0](/azure-stack/user/azure-stack-version-profiles-azurecli2)
   - [Docker CE](https://hub.docker.com/search/?type=edition&offering=community)
   - [Porter](https://porter.sh/). Porter используется для развертывания облачных приложений с помощью предоставленных манифестов пакета CNAB.
   - [Visual Studio Code](https://code.visualstudio.com/)

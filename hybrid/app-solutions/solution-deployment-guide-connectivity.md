@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 16c5d7820e8c865a9f88cb00da5cc7c854379414
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 4480f51b03082f2a0cbb7f2f213e05b7bf488646
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477292"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895385"
 ---
 # <a name="configure-hybrid-cloud-connectivity-using-azure-and-azure-stack-hub"></a>Настройка подключения к гибридному облаку с помощью Azure и Azure Stack Hub
 
@@ -25,7 +25,7 @@ ms.locfileid: "86477292"
 > - Сохранять устаревшую систему при использовании ресурсов и развертывании приложения в масштабе облака, а также хранить ресурсы в глобальной среде Azure.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![Схема основных аспектов проектирования гибридных приложений](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > Microsoft Azure Stack Hub — это расширение Azure. Azure Stack Hub обеспечивает гибкость и высокую скорость внедрения инноваций облачных вычислений в локальной среде. Это решение позволяет использовать единственное гибридное облако, с помощью которого можно создавать и развертывать гибридные приложения в любой точке мира.  
 > 
 > В руководстве по [проектированию гибридных приложений](overview-app-design-considerations.md) перечислены основные аспекты качественного программного обеспечения (размещение, масштабируемость, доступность, устойчивость, управляемость и безопасность), которые следует учитывать при разработке, развертывании и использовании гибридных приложений. Эти рекомендации помогут оптимизировать разработку гибридных приложений и предотвратить появление проблем с рабочими средами.
@@ -37,7 +37,7 @@ ms.locfileid: "86477292"
 ### <a name="azure"></a>Azure
 
 - Если у вас еще нет подписки Azure, [создайте бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), прежде чем начинать работу.
-- Создайте [веб-приложение](/vsts/build-release/apps/cd/azure/aspnet-core-to-azure-webapp?tabs=vsts&view=vsts) в Azure. Запишите URL-адрес веб-приложения для дальнейшего использования в решении.
+- Создайте [веб-приложение](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs) в Azure. Запишите URL-адрес веб-приложения для дальнейшего использования в решении.
 
 ### <a name="azure-stack-hub"></a>Azure Stack Hub
 
@@ -47,9 +47,9 @@ ms.locfileid: "86477292"
    >[!Note]
    >Развертывание ASDK может занять 7 часов. Учитывайте это при планировании.
 
-- Разверните службы PaaS [Службы приложений](/azure-stack/operator/azure-stack-app-service-deploy.md) в Azure Stack Hub.
-- [Создайте планы и предложения](/azure-stack/operator/service-plan-offer-subscription-overview.md) в среде Azure Stack Hub.
-- [Создайте подписку клиента](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm.md) в рамках среды Azure Stack Hub.
+- Разверните службы PaaS [Службы приложений](/azure-stack/operator/azure-stack-app-service-deploy) в Azure Stack Hub.
+- [Создайте планы и предложения](/azure-stack/operator/service-plan-offer-subscription-overview) в среде Azure Stack Hub.
+- [Создайте подписку клиента](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm) в рамках среды Azure Stack Hub.
 
 ### <a name="azure-stack-hub-components"></a>Компоненты Azure Stack Hub
 
@@ -58,7 +58,7 @@ ms.locfileid: "86477292"
 В этом примере решения также предполагается, что вы обладаете основными знаниями об Azure и Azure Stack Hub. Перед началом работы с решением прочитайте следующие статьи:
 
 - [Введение в Azure](https://azure.microsoft.com/overview/what-is-azure/).
-- [Обзор Azure Stack Hub](/azure-stack/operator/azure-stack-overview.md)
+- [Обзор Azure Stack Hub](/azure-stack/operator/azure-stack-overview)
 
 ### <a name="before-you-begin"></a>Перед началом
 

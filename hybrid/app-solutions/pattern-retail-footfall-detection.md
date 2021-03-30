@@ -7,12 +7,12 @@ ms.date: 10/31/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 10/31/2019
-ms.openlocfilehash: 0bf07bb38537f530a0adb3569c43d53af13b8d56
-ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
-ms.translationtype: MT
+ms.openlocfilehash: 866557ec3af2337e9f034da84cf417675508563b
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "84911222"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895335"
 ---
 # <a name="footfall-detection-pattern"></a>Шаблон определения посещаемости
 
@@ -50,7 +50,7 @@ ms.locfileid: "84911222"
 | Azure | [Центры событий Azure](/azure/event-hubs/) | Концентраторы событий Azure предоставляют масштабируемую платформу для приема анонимных данных, которые корректно интегрируются с Azure Stream Analytics. |
 |  | [Azure Stream Analytics](/azure/stream-analytics/) | Задание Azure Stream Analytics выполняет статистическую обработку анонимных данных и группирует их в 15-секундные окна для визуализации. |
 |  | [Microsoft Power BI](https://powerbi.microsoft.com/) | Power BI предоставляет простой в использовании интерфейс панели мониторинга для просмотра выходных данных Azure Stream Analytics. |
-| Azure Stack Hub | [Служба приложений](/azure-stack/operator/azure-stack-app-service-overview.md) | Поставщик ресурсов Службы приложений предоставляет основу для компонентов пограничной среды, включая функции размещения и управления для веб-приложений, API и функций. |
+| Azure Stack Hub | [Служба приложений](/azure-stack/operator/azure-stack-app-service-overview) | Поставщик ресурсов Службы приложений предоставляет основу для компонентов пограничной среды, включая функции размещения и управления для веб-приложений, API и функций. |
 | | Кластер [обработчика](https://github.com/Azure/aks-engine) Службы Azure Kubernetes (AKS). | Поставщик ресурсов AKS с кластером обработчика AKS, развернутым в Azure Stack Hub, предоставляет масштабируемый отказоустойчивый механизм для запуска контейнера API Распознавания лиц. |
 | | [Контейнеры API Распознавания лиц](/azure/cognitive-services/face/face-how-to-install-containers) Cognitive Services в Azure| Поставщик ресурсов Azure Cognitive Services с контейнерами API Распознавания лиц предоставляет демографические данные, данные распознавания эмоций и уникальные определения посетителей в закрытой сети Contoso. |
 | | Хранилище BLOB-объектов | Изображения, полученные из пакета средств разработки для искусственного интеллекта, отправляются в хранилище BLOB-объектов Azure Stack Hub. |
