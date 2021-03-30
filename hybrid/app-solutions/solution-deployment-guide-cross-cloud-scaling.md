@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 5ae6c4323324fa104cd0e5c7b5198492be14b8eb
-ms.sourcegitcommit: 56980e3c118ca0a672974ee3835b18f6e81b6f43
+ms.openlocfilehash: ed2ad5bed8f4bd80d4a40ab7600842d5544ff97d
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88886821"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895420"
 ---
 # <a name="deploy-an-app-that-scales-cross-cloud-using-azure-and-azure-stack-hub"></a>Развертывание приложения, которое выполняет масштабирование в нескольких облаках с помощью Azure и Azure Stack Hub
 
@@ -30,7 +30,7 @@ ms.locfileid: "88886821"
 > - Узнаете, как отслеживать развертывания и управлять ими.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![Схема основных аспектов проектирования гибридных приложений](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > Microsoft Azure Stack Hub — это расширение Azure. Azure Stack Hub обеспечивает гибкость и высокую скорость внедрения инноваций облачных вычислений в локальной среде. Только это гибридное облако позволяет создавать и развертывать гибридные приложения где угодно.  
 > 
 > В руководстве по [проектированию гибридных приложений](overview-app-design-considerations.md) перечислены основные аспекты качественного программного обеспечения (размещение, масштабируемость, доступность, устойчивость, управляемость и безопасность), которые следует учитывать при разработке, развертывании и использовании гибридных приложений. Эти рекомендации помогут оптимизировать разработку гибридных приложений и предотвратить появление проблем с рабочими средами.
@@ -39,16 +39,16 @@ ms.locfileid: "88886821"
 
 - Подписка Azure. При необходимости для начала создайте [бесплатную учетную запись](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 - Используйте систему с Azure Stack Hub или разверните Пакет средств разработки Azure Stack (ASDK).
-  - Инструкции по установке Azure Stack Hub см. в статье [Установка ASDK](/azure-stack/asdk/asdk-install.md).
+  - Инструкции по установке Azure Stack Hub см. в статье [Установка ASDK](/azure-stack/asdk/asdk-install).
   - Скрипт автоматизации, используемый после развертывания ASDK, можно найти по адресу [https://github.com/mattmcspirit/azurestack](https://github.com/mattmcspirit/azurestack)
   - Выполнение этой установки может занять несколько часов.
-- Разверните службы PaaS [Службы приложений](/azure-stack/operator/azure-stack-app-service-deploy.md) в Azure Stack Hub.
-- [Создайте план и предложения](/azure-stack/operator/service-plan-offer-subscription-overview.md) в рамках среды Azure Stack Hub.
-- [Создайте подписку клиента](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm.md) в рамках среды Azure Stack Hub.
+- Разверните службы PaaS [Службы приложений](/azure-stack/operator/azure-stack-app-service-deploy) в Azure Stack Hub.
+- [Создайте план и предложения](/azure-stack/operator/service-plan-offer-subscription-overview) в рамках среды Azure Stack Hub.
+- [Создайте подписку клиента](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm) в рамках среды Azure Stack Hub.
 - Создайте веб-приложение в подписке клиента. Запишите новый URL-адрес веб-приложения для дальнейшего использования.
 - Разверните виртуальную машину Azure Pipelines в подписке клиента.
 - Требуется виртуальная машина Windows Server 2016 с .NET 3.5. Эта виртуальная машина будет создана в подписке клиента Azure Stack Hub в качестве частного агента сборки.
-- [Windows Server 2016 с образом виртуальной машины SQL 2017](/azure-stack/operator/azure-stack-add-vm-image.md) доступен в Azure Stack Hub Marketplace. Если этот образ недоступен, обратитесь к оператору Azure Stack Hub, чтобы убедиться, что он добавлен в среду.
+- [Windows Server 2016 с образом виртуальной машины SQL 2017](/azure-stack/operator/azure-stack-add-vm-image) доступен в Azure Stack Hub Marketplace. Если этот образ недоступен, обратитесь к оператору Azure Stack Hub, чтобы убедиться, что он добавлен в среду.
 
 ## <a name="issues-and-considerations"></a>Проблемы и рекомендации
 
@@ -79,7 +79,7 @@ ms.locfileid: "88886821"
 Настройте гибридный конвейер непрерывной интеграции и непрерывного развертывания (CI/CD), чтобы развернуть веб-приложения в Azure и Azure Stack Hub и включить автоматическую отправку изменений в оба облака.
 
 > [!Note]  
-> Вам необходим Azure Stack Hub с подходящими образами, объединенными для запуска (Windows Server и SQL), и развернутой Службой приложений. Дополнительные сведения см. в документации по службе приложений Azure ([Предварительные требования для развертывания Службы приложений в Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started.md)).
+> Вам необходим Azure Stack Hub с подходящими образами, объединенными для запуска (Windows Server и SQL), и развернутой Службой приложений. Дополнительные сведения см. в документации по службе приложений Azure ([Предварительные требования для развертывания Службы приложений в Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started)).
 
 ### <a name="add-code-to-azure-repos"></a>Добавление кода в Azure Repos
 
@@ -157,7 +157,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
   
       ![Выбор пакета или папки для среды Службы приложений Azure](media/solution-deployment-guide-cross-cloud-scaling/image12.png)
 
-      ![Выбор пакета или папки для среды Службы приложений Azure](media/solution-deployment-guide-cross-cloud-scaling/image13.png)
+      ![Диалоговое окно выбора папки 1](media/solution-deployment-guide-cross-cloud-scaling/image13.png)
 
 9. Сохраните все изменения и вернитесь к **конвейеру выпуска**.
 
@@ -194,7 +194,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 
     ![Выбор папки для развертывания Службы приложений Azure](media/solution-deployment-guide-cross-cloud-scaling/image22.png)
 
-    ![Выбор папки для развертывания Службы приложений Azure](media/solution-deployment-guide-cross-cloud-scaling/image23.png)
+    ![Диалоговое окно выбора папки 2](media/solution-deployment-guide-cross-cloud-scaling/image23.png)
 
 18. В разделе "Переменные" добавьте переменную `VSTS\_ARM\_REST\_IGNORE\_SSL\_ERRORS`, задайте для нее значение **true** и область Azure Stack.
 
@@ -211,7 +211,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 21. Сохраните все изменения.
 
 > [!Note]  
-> Некоторые параметры для задач могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры нельзя изменить в параметрах задачи. Для этого нужно выбрать родительский элемент среды.
+> Некоторые параметры для задач могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры нельзя изменить в параметрах задачи. Для этого нужно выбрать родительский элемент среды.
 
 ## <a name="publish-to-azure-stack-hub-via-visual-studio"></a>Публикация в Azure Stack Hub с помощью Visual Studio
 
@@ -242,7 +242,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 ## <a name="develop-the-app-build"></a>Разработка сборки приложения
 
 > [!Note]  
-> Вам необходим Azure Stack Hub с подходящими образами, объединенными для запуска (Windows Server и SQL), и развернутой Службой приложений. Подробнее см. статью [Предварительные условия для развертывания Службы приложений в Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started.md).
+> Вам необходим Azure Stack Hub с подходящими образами, объединенными для запуска (Windows Server и SQL), и развернутой Службой приложений. Подробнее см. статью [Предварительные условия для развертывания Службы приложений в Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started).
 
 Используйте такие [шаблоны Azure Resource Manager](https://azure.microsoft.com/resources/templates/), как код веб-приложения из Azure Repos, для развертывания в обоих облаках.
 
@@ -329,7 +329,7 @@ Azure Pipelines и Azure DevOps Services предоставляют конвей
 23. Сохраните все изменения.
 
 > [!Note]  
-> Некоторые параметры для задач выпуска могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры невозможно изменить в настройках задачи, но можно изменить в элементах родительской среды.
+> Некоторые параметры для задач выпуска могли быть автоматически определены как [переменные среды](/azure/devops/pipelines/release/variables?tabs=batch#custom-variables) при создании определения выпуска на основе шаблона. Эти параметры невозможно изменить в настройках задачи, но можно изменить в элементах родительской среды.
 
 ## <a name="create-a-release"></a>Создание выпуска
 
