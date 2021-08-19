@@ -295,15 +295,15 @@ additionalContent:
               text: Высокодоступный кластер Kubernetes
         - title: Развертывание примеров решений приложений
           links:
-            - url: ./app-solutions/solution-deployment-guide-cross-cloud-scaling.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-cross-cloud-scaling
               text: Масштабирование в нескольких облаках
             - url: 'https://aka.ms/hybriddevopsdeploy'
               text: Гибридные процессы CI/CD в рамках DevOps
-            - url: ./app-solutions/solution-deployment-guide-retail-footfall-detection.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-retail-footfall-detection
               text: Определение посещаемости (розничная торговля)
-            - url: ./app-solutions/solution-deployment-guide-geo-distributed.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-geo-distributed
               text: Географически распределенное приложение
-            - url: ./app-solutions/solution-deployment-guide-highly-available-kubernetes.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes
               text: Высокодоступный кластер Kubernetes
     - title: Ресурсы для ознакомления и обучения
       items:
