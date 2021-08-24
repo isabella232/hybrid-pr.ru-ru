@@ -7,12 +7,12 @@ ms.date: 12/03/2020
 ms.author: bryanla
 ms.reviewer: bryanla
 ms.lastreviewed: 12/03/2020
-ms.openlocfilehash: 454cc0a0531882b7a8ec050a461420ce13eebcfe
-ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
+ms.openlocfilehash: f8a733bcdab871695e552ec687d42e3ff4230490
+ms.sourcegitcommit: df06f598da09074d387f5f765f7c4237af98fb59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96912005"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "122281318"
 ---
 # <a name="high-availability-kubernetes-cluster-pattern"></a>Шаблон кластера Kubernetes с высоким уровнем доступности
 
@@ -394,4 +394,4 @@ Azure и Azure Stack Hub предоставляют те же REST API Azure Re
 - [Масштабирование в разных облаках](pattern-cross-cloud-scale.md) и [шаблоны географически распределенных приложений](pattern-geo-distributed.md) в Azure Stack Hub.
 - [Архитектура микрослужб в Службе Azure Kubernetes (AKS)](/azure/architecture/reference-architectures/microservices/aks)
 
-Когда вы будете готовы протестировать пример решения, продолжите работу с [руководством по развертыванию кластеров Kubernetes с высоким уровнем доступности](solution-deployment-guide-highly-available-kubernetes.md). В этом руководстве содержатся пошаговые инструкции по развертыванию и тестированию компонентов.
+Когда вы будете готовы протестировать пример решения, продолжите работу с [руководством по развертыванию кластеров Kubernetes с высоким уровнем доступности](/azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes). В этом руководстве содержатся пошаговые инструкции по развертыванию и тестированию компонентов.

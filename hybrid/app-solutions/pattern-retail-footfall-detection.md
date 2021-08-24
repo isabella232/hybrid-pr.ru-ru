@@ -7,12 +7,12 @@ ms.date: 10/31/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 10/31/2019
-ms.openlocfilehash: 866557ec3af2337e9f034da84cf417675508563b
-ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
+ms.openlocfilehash: 79fb39d418bed53ef6a78980fcd9188bdf6e57ae
+ms.sourcegitcommit: df06f598da09074d387f5f765f7c4237af98fb59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104895335"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "122281284"
 ---
 # <a name="footfall-detection-pattern"></a>Шаблон определения посещаемости
 
@@ -88,4 +88,4 @@ ms.locfileid: "104895335"
 - См. сведения о [шаблоне распределения данных по уровням](https://aka.ms/tiereddatadeploy), используемым шаблоном определения посещаемости.
 - Дополнительные сведения о пакете разработки для искусственного интеллекта Пользовательского визуального распознавания см. в [этой статье](https://azure.github.io/Vision-AI-DevKit-Pages/). 
 
-Когда вы будете готовы протестировать пример решения, продолжите работу с [руководством по развертыванию решения для определения посещаемости](solution-deployment-guide-retail-footfall-detection.md). В этом руководстве содержатся пошаговые инструкции по развертыванию и тестированию компонентов.
+Когда вы будете готовы протестировать пример решения, продолжите работу с [руководством по развертыванию решения для определения посещаемости](/azure/architecture/hybrid/deployments/solution-deployment-guide-retail-footfall-detection). В этом руководстве содержатся пошаговые инструкции по развертыванию и тестированию компонентов.
